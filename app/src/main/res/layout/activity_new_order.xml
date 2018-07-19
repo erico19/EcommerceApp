@@ -25,7 +25,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/customerOrderName"
+            android:id="@+id/itemName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
@@ -41,7 +41,7 @@
             app:layout_constraintTop_toBottomOf="@+id/customerName" />
 
         <EditText
-            android:id="@+id/costomerOrderQuantity"
+            android:id="@+id/itemQuantity"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
@@ -54,7 +54,7 @@
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/customerOrderName" />
+            app:layout_constraintTop_toBottomOf="@+id/itemName" />
 
         <EditText
             android:id="@+id/orderAmount"
@@ -70,7 +70,7 @@
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/costomerOrderQuantity" />
+            app:layout_constraintTop_toBottomOf="@+id/itemQuantity" />
 
         <TextView
             android:id="@+id/textView"
@@ -199,7 +199,7 @@
             android:text="Make Order"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/customerComment"
-            android:onClick="Saved"/>
+            android:onClick="makeOrder"/>
     </android.support.constraint.ConstraintLayout>
 
 
